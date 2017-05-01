@@ -1,0 +1,17 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "simple logger for nodejs",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evmizulin/logger.git"
+  },
+  "author": "Evgeny Mizulin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evmizulin/logger/issues"
+  },
+  "homepage": "https://github.com/evmizulin/logger#readme"
+}
