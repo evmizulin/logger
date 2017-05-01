@@ -2,12 +2,12 @@
 
 ### Installation
 ```
-npm install --save simple-logger
+npm install --save tlogger
 ```
 
 ### Usage example
 ```
-const log = require('simple-logger')('SomeNamespace')
+const log = require('tlogger')('SomeNamespace')
 log('some action')
 ```
 
