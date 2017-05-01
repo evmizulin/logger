@@ -1,5 +1,5 @@
 {
-  "name": "logger",
+  "name": "tlogger",
   "version": "1.0.0",
   "description": "simple logger for nodejs",
   "main": "index.js",
