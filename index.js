@@ -1,6 +1,6 @@
 function getMemory() {
     const memory = Math.floor(process.memoryUsage().heapUsed * 1e-6)
-    return `MemoryUsage: ${memory}Mb`
+    return `MemoryUsage-${memory}Mb`
 }
 
 module.exports = function create(nameSpace) {
@@ -10,7 +10,7 @@ module.exports = function create(nameSpace) {
 
         args.unshift(nameSpace)
         args.unshift(getMemory())
-        args.unshift(date.toISOString().replace('T', ' ').split('.')[0])
+        args.unshift(date.toISOString().replace('T', '-').split('.')[0])
 
         const argsForPrint = args.map(item => {
             if (typeof item === 'object' && item !== null) {
